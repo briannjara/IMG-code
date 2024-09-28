@@ -68,6 +68,10 @@ Image Uploader is a Next.js application that allows users to upload images and a
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
+### Live Demo
+
+You can access the live version of this project at [https://img-code.vercel.app/](https://img-code.vercel.app/)
+
 ## Usage
 
 1. Upload an image by dragging and dropping it into the designated area or by clicking "Browse Files".
