@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -168,7 +169,8 @@ const ImageUploader: React.FC = () => {
                   </>
                 )}
               </div>
-              {error && <p className="text-red-500 text-sm mt-2">Couldn&apos;t upload image. Please try again.</p>}
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              {error && <p className="text-red-500 text-sm mt-2">Couldn't upload image. Please try again.</p>}
             </section>
 
             {image && (
