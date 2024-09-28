@@ -168,7 +168,7 @@ const ImageUploader: React.FC = () => {
                   </>
                 )}
               </div>
-              {error && <p className="text-red-500 mt-4">{error}</p>}
+              {error && <p className="text-red-500 text-sm mt-2">Couldn&apos;t upload image. Please try again.</p>}
             </section>
 
             {image && (
@@ -210,7 +210,7 @@ const ImageUploader: React.FC = () => {
             <p className={`${isDarkMode ? 'text-gray-400' : 'text-gray-600'} mb-4`}>Here's the HTML and CSS code for your uploaded image.</p>
             <div className="space-y-4">
               {['HTML', 'CSS'].map((type) => (
-                <div key={type} className={`${isDarkMode ? 'bg-gray-800' : 'bg-gray-200'} rounded-lg p-4`}>
+                <div key={type} className={`${isDarkMode ? "bg-gray-800" : "bg-gray-200"} rounded-lg p-4`}>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="text-lg font-medium">{type}</h3>
                     <button 
